@@ -45,6 +45,11 @@ font-size: 16px
     border-radius: 50%;
 }
 
+#button5 {
+    background: grey;
+    border-radius: 50%;
+}
+
 #button1:active, #button1.lit {
     background:green;
 }
@@ -57,4 +62,7 @@ font-size: 16px
 }
 #button4:active, #button4.lit {
     background:yellow;
+}
+#button5:active, #button5.lit {
+    background:black;
 }
