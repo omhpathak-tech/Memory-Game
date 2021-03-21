@@ -10,9 +10,11 @@ body {
 h1 {
   font-family: verdana, arial, sans-serif; 
 }
+
 button {
-padding: 10px;
+padding: 16px;
 border-radius: 10px;
+font-size: 16px
 }
 
 #gameButtonArea > button {
@@ -27,16 +29,26 @@ border-radius: 10px;
 
 #button1 {
     background: lightgreen;
+    border-radius: 50%;
 }
 #button2 {
     background: lightblue;
+    border-radius: 50%;
 }
 #button3 {
     background: pink;
+    border-radius: 50%;
 }
 
 #button4 {
-    background: lightyelloww;}
+    background: lightyellow;
+    border-radius: 50%;
+}
+
+#button5 {
+    background: grey;
+    border-radius: 50%;
+}
 
 #button1:active, #button1.lit {
     background:green;
@@ -50,4 +62,7 @@ border-radius: 10px;
 }
 #button4:active, #button4.lit {
     background:yellow;
+}
+#button5:active, #button5.lit {
+    background:black;
 }
